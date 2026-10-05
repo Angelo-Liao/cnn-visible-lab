@@ -1,0 +1,34 @@
+.lesson-story{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin:0 0 28px;padding:0 0 24px;border-bottom:1px solid var(--line)}
+.story-label{display:block;font-size:14px;color:var(--accent);margin-bottom:9px;font-weight:500}
+.lesson-story h3{font:500 21px/1.65 var(--serif);margin:0 0 10px;letter-spacing:0}
+.lesson-story p{font-size:16px;line-height:1.85;margin:0;color:var(--ink)}
+.story-bridge{border-left:1px solid var(--line);padding-left:26px}
+.lesson-thread{font-size:16px;line-height:1.8;padding:18px 0 0;margin:20px 0 0;border-top:1px solid var(--line);color:var(--muted)}
+.explain p{font-size:16px;line-height:1.85}.lead{font-size:16px}.resource p{font-size:16px}
+.lesson-extra{border-top:1px solid var(--line);margin-top:18px}.lesson-extra summary{font-size:14px}
+.res-intro{max-width:760px;font-size:17px;line-height:1.95;margin-bottom:32px}
+.res-chapter{display:flex;gap:16px;align-items:baseline;margin-bottom:16px}
+.res-chapter>span{font:italic 30px 'Source Serif 4',Georgia,serif;color:var(--accent)}
+.res-chapter h2{margin:0;font:500 26px/1.6 var(--serif)}
+.res-volume{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:42px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0 32px}
+.res-volume p,.res-reading p{font-size:16px;line-height:1.9}
+.volume-equation{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:22px 0 12px}
+.volume-equation>div{min-width:0;text-align:center;flex:1}.volume-equation small{display:block;font-size:14px;line-height:1.5;color:var(--muted)}
+.volume-equation b,.volume-equation output{display:block;font:400 48px 'Source Serif 4',Georgia,serif;line-height:1.4;color:var(--ink)}
+.volume-equation .symbol{font-size:24px}.volume-equation>div:last-child{background:#e8dfcc;border-radius:3px}
+.volume-controls{display:flex;gap:16px;align-items:center;flex-wrap:wrap}.volume-controls label{display:flex;align-items:center;gap:8px;font-size:15px}.volume-controls input{width:18px;height:18px;accent-color:var(--accent)}
+.volume-note{min-height:3.8em;margin-top:16px;padding-left:14px;border-left:2px solid var(--accent)}
+.res-word-equation{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:14px;font:500 23px/1.7 var(--serif);padding:26px 14px;margin:20px 0;background:#e8dfcc;border-radius:4px}
+.res-word-equation span small{display:block;font:italic 18px/1.8 'Source Serif 4',Georgia,serif;text-align:center;color:var(--muted)}
+.res-reading{max-width:900px;margin:32px auto}.res-reading ol{padding-left:22px;line-height:1.9}.res-reading li{margin-bottom:12px}
+.res-guide{padding:15px 18px;border-left:2px solid var(--accent);font-size:16px;line-height:1.9;background:#eee8dc}
+.res-technical{margin-top:26px;border-top:1px solid var(--line)}.res-technical>summary{font-size:16px}.res-technical .grid2{margin-top:20px}
+.res-example{font-size:17px;font-variant-numeric:tabular-nums;line-height:1.8;text-align:center;margin-top:20px}
+.model-plain{padding:18px 22px;border-left:2px solid var(--accent);margin:20px 0;background:#eee8dc}.model-plain p{margin:6px 0;font-size:16px;line-height:1.9}
+.watch-order{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin:24px 0 32px;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.watch-order article{min-width:0}.watch-order h2{font-size:21px;line-height:1.6}.watch-order p{font-size:16px;line-height:1.85}.watch-order a{display:inline-block;line-height:1.8}
+.source-context{font-size:14px;line-height:1.9;color:var(--muted)}
+.weight-definitions p,.weight-distinction,.weight-explorer>p,.weight-answer p{font-size:16px}
+@media(max-width:940px){.lesson-story{gap:22px}.res-volume{gap:24px}.watch-order{gap:20px}}
+@media(max-width:680px){.lesson-story,.res-volume,.watch-order{grid-template-columns:1fr;gap:20px}.story-bridge{border-left:0;border-top:1px solid var(--line);padding:16px 0 0}.lesson-story h3{font-size:20px}.lesson-story{margin-bottom:24px}.res-chapter{gap:12px}.res-chapter h2{font-size:23px}.res-volume{padding-top:20px}.res-word-equation{font-size:18px;gap:10px}.volume-equation b,.volume-equation output{font-size:38px}.res-intro{font-size:16px}.res-guide{padding:12px}.model-plain{padding:14px 16px}.res-maps .cell{min-height:38px}}
+@media(max-width:680px){.res-word-equation{flex-direction:column;gap:2px}.res-word-equation>span{text-align:center}}
